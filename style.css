@@ -1,0 +1,163 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+/*Button*/
+.btn{
+	border-radius: 0;
+	padding: 15px 30px;
+	cursor: pointer;
+	font-weight: 300;
+}
+/*Padding*/
+.xs-padding{
+	padding: 15px;
+}
+.sm-padding{
+	padding: 30px;
+}
+.padding{
+	padding: 50px;
+}
+.lg-padding{
+	padding: 110px;
+}
+
+
+/*Navbar*/
+.navbar-toggleable-md .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.dropdown-menu{
+	border: none;
+	border-radius: 0;
+	padding: 0;
+}
+.navbar{
+	padding: 10px;
+	background-color: white;
+}
+
+/*Landing*/
+.landing{
+	background-image: url(img/landing.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+.landing h1{
+	font-weight: 900;
+	color: white;
+	font-size: 8em;
+	margin-bottom: 0;
+	line-height: 100px;
+	text-align: right;
+}
+.landing h2{
+	color: white;
+	font-size: 2em;
+	font-weight: 200;
+	text-align: right;
+}
+.landing .btn{
+	background-color: rgba(255,87,34,.5);
+	color: white;
+	float: right;
+	display: block;
+}
+.landing .btn:hover{
+	background-color: rgba(255,87,34,.9);
+}
+.landing a{
+	color: white;
+	text-decoration: none;
+}
+
+
+/*Categories*/
+.categories .btn{
+	background-color: rgba(255,87,34,.4);
+    padding: 40px 80px;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 300;
+}
+.categories .btn:hover{
+	background-color: rgba(255,87,34,.8);
+}
+.categories a{
+	color: white;
+	text-decoration: none;
+}
+
+
+/*Footer*/
+.footer{
+	background-image: url(img/footer.jpg);
+	background-size: cover;
+}
+.footer .col{
+	padding: 100px auto;
+}
+#jason{
+	float: right; 
+	font-weight: 200; 
+	cursor: pointer;
+}
+@media (max-width: 720px) {
+	.footer .xs-padding{
+		padding: 5px;
+	}
+	#jason{
+		font-size: .7rem;
+	}
+	.footer i{
+		font-size: 1.2rem;
+	}
+}
+
+
+
+/*Tablet*/
+@media (max-width: 900px) {
+	.sm-padding{
+		padding: 15px;
+	}
+}
+
+
+/*Phone*/
+@media (max-width: 720px) {
+	.sm-padding{
+		padding: 15px;
+	}
+	.lg-padding{
+		padding: 80px;
+	}
+	.landing h2{
+		text-align: center;
+		margin-top: -15px;
+		padding-bottom: 5px;
+	}
+	.landing h1{
+		font-size: 4em;
+		text-align: center;
+	}
+	.landing .btn{
+		margin: auto;
+		float: none;
+		padding: 15px 20px;
+	}
+	.categories .btn{
+		padding: 10px 20px;
+	}
+}
+
+
+
+    
